@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Region Info-->
+    <div class="wrapper">
+        <div class="current-info">
+            <div class="time" id="time">
+                12:00 <span id = "am-pm">PM</span>
+            </div>
+            <div class="date" id="date">
+                Monday, 7 September
+            </div>
+        </div>
+        <div class="place-container">
+            <div class="time-zone" id="time-zone">North America</div>
+            <div id="country" class="country">US</div>
+        </div>
+            <!-- Weather Items -->
+
+
+           <div class="items" id="current-week">
+               <!--  <div class="weather-item">
+                    <span> Humidity</span>
+                    <span>95.2%</span>
+                </div>
+                <div class="weather-item">
+                    <span> Pressure</span>
+                    <span>121</span>
+                </div>
+                <div class="weather-item">
+                    <span> Wind Speed</span>
+                    <span>111</span>
+                </div> -->
+                
+            </div>
+    </div>
+
+    <!-- Forecast -->
+    <div class="weather-forecast" id="weather-forecast">
+
+        <div class="forecast">
+            <div class="today" id="current-temp">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                <div class="other">
+                    <span class="day"> Monday</span>
+                    <span class="temp-day"> Day - 25.6^F</span>
+                    <span class="temp-night"> Night - 35.6^F</span>    
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Tuesday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Wednesday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Thursday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Friday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Saturday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+
+        <div class="forecast-item">
+            <span class="day"> Sunday</span>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+            <span class="temp-day"> Day - 25.6^F</span>
+            <span class="temp-night"> Night - 35.6^F</span>
+        </div>
+    </div>
+    
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src ="script.js"></script>
+</body>
+</html>
